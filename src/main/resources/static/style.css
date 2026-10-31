@@ -1,0 +1,22 @@
+body {
+    background-color: #fce4ec;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0; padding: 20px;
+    display: flex; justify-content: center;
+}
+.card {
+    background: white; padding: 30px; border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(216, 27, 96, 0.1);
+    width: 100%; max-width: 900px;
+}
+h2 { color: #ad1457; text-align: center; border-bottom: 2px solid #f8bbd0; padding-bottom: 10px; }
+button {
+    background-color: #f06292; color: white; border: none;
+    padding: 10px 15px; margin: 5px; border-radius: 8px;
+    font-weight: bold; cursor: pointer; transition: 0.3s;
+}
+button:hover { background-color: #d81b60; }
+table { width: 100%; border-collapse: collapse; margin-top: 25px; }
+th { background-color: #f8bbd0; color: #880e4f; padding: 12px; border: 1px solid #f48fb1; }
+td { padding: 10px; border: 1px solid #fce4ec; text-align: center; color: #444; }
+tr:nth-child(even) { background-color: #fff1f5; }
